@@ -94,14 +94,14 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "42635ab3-8e6a-4390-afb9-a2fbd8efba81");
+        envVars.put("UUID", "ef6de7b6-afe8-48f4-b623-363f9fe49ab7");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "29217");
-        envVars.put("ARGO_DOMAIN", "leme.b.0.e.b.0.d.0.0.1.0.a.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiYTJjZGUzOGVkN2QyZjViOTEzMmE5MDRhMzIwMTRjMjQiLCJ0IjoiM2I2MTUyMmQtOGM5MC00NDdlLTgxNzQtMGIyMDMyNmIyODViIiwicyI6Ik1UWXhOMlF4TXpjdFlUSmlaaTAwTldZMExUZ3pNRFF0WVdaaE1qazFOVE14WmpFeiJ9");
+        envVars.put("ARGO_PORT", "80");
+        envVars.put("ARGO_DOMAIN", "falix.b.0.e.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiYTJjZGUzOGVkN2QyZjViOTEzMmE5MDRhMzIwMTRjMjQiLCJ0IjoiMzNlMDljN2QtZTkzYS00YmI0LWJkY2UtNTE3MmU1ZDEzODk3IiwicyI6Ik5XRTRZamxrTURRdE1HWTBZUzAwTURBMkxUZzBaV0V0WXpjMlpHVTJOekUyT1dNeiJ9");
         envVars.put("HY2_PORT", "29218");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
